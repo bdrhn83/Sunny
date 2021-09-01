@@ -1,0 +1,444 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  width: 100%;
+  background: url("./images/desktop/image-header.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+header h1 {
+  color: hsl(0, 0%, 100%);
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: Fraunces;
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 69px;
+  letter-spacing: 8.75px;
+}
+
+header img {
+  margin-left: 2rem;
+  width: 10rem;
+  height: 2.6rem;
+}
+
+header nav {
+  margin: 2.1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+}
+
+header .arrow {
+  display: flex;
+  margin: 170px auto;
+  width: 30px;
+  height: 120px;
+}
+
+header nav ul {
+  margin-top: 15px;
+  display: flex;
+  margin-right: 0px;
+}
+
+header nav ul li {
+  cursor: pointer;
+  list-style-type: none;
+  font-size: 1.1rem;
+  font-family: "Barlow" sans-serif;
+  display: flex;
+  margin-right: 4rem;
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+}
+
+header nav ul li:nth-last-child(1) {
+  padding: 15px 35px;
+  margin-right: 20px;
+  margin-top: -15px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 50px;
+  color: hsl(212, 27%, 19%);
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
+}
+
+header nav ul li:nth-last-child(1):hover {
+  color: hsl(0, 0%, 100%);
+  background-color: #40b6f1;
+  transition: all 0.5s;
+}
+
+main .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-1 {
+  background: hsl(0, 0%, 100%);
+  display: flex;
+  width: 100%;
+  height: 70vh;
+}
+
+.card-1 div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-1 img {
+  width: 50%;
+}
+
+.card-1 h3 {
+  float: left;
+  color: hsl(212, 27%, 19%);
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+  margin-bottom: 25px;
+  width: 60%;
+  line-height: 35px;
+}
+
+.card-1 p {
+  font-family: Barlow;
+  font-size: 18px;
+  font-style: normal;
+  color: #19536c;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.12857143580913544px;
+  margin-right: 5rem;
+}
+
+.card-1 a {
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Fraunces", sans-serif;
+  width: 60%;
+  font-size: 0.9rem;
+  font-weight: 900;
+  text-decoration: 5px underline hsl(51, 100%, 49%);
+  color: hsl(212, 27%, 19%);
+  margin-top: 2rem;
+}
+
+article .card-2 {
+  background: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70vh;
+}
+
+.card-2 img {
+  width: 50%;
+}
+
+.card-2 div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-2 h3 {
+  float: left;
+  color: hsl(212, 27%, 19%);
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+  margin-bottom: 25px;
+  width: 60%;
+  line-height: 35px;
+}
+
+.card-2 p {
+  font-family: Barlow;
+  font-size: 18px;
+  font-style: normal;
+  color: #19536c;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.12857143580913544px;
+  margin-right: 5rem;
+}
+
+.card-2 a {
+  text-decoration: underline 6px hsl(7, 99%, 70%);
+  color: hsl(212, 27%, 19%);
+  font-size: 0.9rem;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
+  width: 60%;
+  margin-top: 2rem;
+}
+
+.card-3 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 80vh;
+}
+
+.card-3 .container-left {
+  background-image: url("./images/desktop/image-graphic-design.jpg");
+  background-size: 100% 100%;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-3 .container-left h3 {
+  display: flex;
+  justify-content: center;
+  color: hsl(212, 27%, 19%);
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+  margin: 25px 0;
+  width: 60%;
+}
+
+.card-3 .container-left p {
+  margin: 0 auto;
+  width: 50%;
+  font-family: Barlow;
+  color: #19536c;
+  font-size: 0.9rem;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.12857143580913544px;
+  margin-right: 13rem;
+}
+
+.card-3 .container-right {
+  background-image: url("./images/desktop/image-photography.jpg");
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+}
+
+.card-3 .container-right h3 {
+  display: flex;
+  justify-content: center;
+  color: hsl(198, 62%, 26%);
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+  margin: 25px 0;
+  width: 60%;
+  margin-left: 11rem;
+}
+
+.card-3 .container-right p {
+  margin: 0 auto;
+  width: 50%;
+  font-family: Barlow;
+  color: #19536c;
+  font-size: 0.9rem;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.12857143580913544px;
+  margin-right: 13rem;
+}
+
+.clients {
+  background: hsl(0, 0%, 100%);
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  margin: 150px 0;
+}
+
+.clients section {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 10px;
+}
+
+.clients .image img {
+  border-radius: 100px;
+  width: 60px;
+  margin-bottom: 50px;
+}
+
+.clients .all-clients {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1rem;
+}
+
+.clients .all-clients p {
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  margin-bottom: 50px;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: -0.128571px;
+  color: #5b636d;
+}
+
+.clients .all-clients .name-client {
+  font-family: "Fraunces", sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.clients .all-client .function-client {
+  font-family: "Barlow", sans-serif;
+  color: hsl(210, 4%, 67%);
+  font-size: 1rem;
+}
+
+.clients h2 {
+  font-family: Fraunces;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 5px;
+  color: #a7aaad;
+}
+
+.function-client {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: -0.1px;
+  color: #a7aaad;
+}
+
+#gallery {
+  width: 100%;
+  height: 30%;
+  overflow-x: hidden;
+}
+
+#gallery .gallery-images {
+  display: flex;
+  width: 84%;
+}
+
+#gallery .gallery-images img {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+}
+
+footer {
+  background-color: hsl(168, 42%, 64%);
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+footer nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px auto;
+}
+
+footer nav ul li {
+  color: #2f7e6a;
+  list-style: none;
+  margin-right: 3rem;
+  margin-bottom: 40px;
+}
+
+footer nav ul li:hover {
+  color: hsl(0, 0%, 100%);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+footer nav svg {
+  display: flex;
+  margin-left: -1.8rem;
+  width: 150px;
+  height: 40px;
+}
+
+footer .icons {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-left: -1.8rem;
+}
+
+footer .icons svg {
+  margin: 0 10px;
+  display: flex;
+}
+
+footer .icons:hover {
+  transition: all 0.5s;
+  cursor: pointer;
+}
